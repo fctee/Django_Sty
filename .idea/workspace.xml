@@ -1,33 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e08e5f5-093d-4a4b-beb8-139975cc7a53" name="变更" comment="bill commit">
-      <change afterPath="$PROJECT_DIR$/app01/static/css/picshow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app01/static/js/bind-btn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app01/static/js/charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app01/static/js/pic-carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app01/static/js/show-progress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app01/templates/bill_edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app01/templates/bill_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/city/demo1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/city/demo2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/city/demo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/city/demo4.jpg" afterDir="false" />
+    <list default="true" id="8e08e5f5-093d-4a4b-beb8-139975cc7a53" name="变更" comment="bill fix">
+      <change afterPath="$PROJECT_DIR$/app01/static/js/charts-bak.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_Sty/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_Sty/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_Sty/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_Sty/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/migrations/0002_alter_department_title_bill.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/migrations/0002_bill.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/templates/bill.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/utils/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/utils/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app01/static/css/picshow.css" beforeDir="false" afterPath="$PROJECT_DIR$/app01/static/css/pic-show.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app01/static/js/charts.js" beforeDir="false" afterPath="$PROJECT_DIR$/app01/static/js/charts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app01/static/js/show-progress.js" beforeDir="false" afterPath="$PROJECT_DIR$/app01/static/js/show-progress.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app01/templates/bill_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/app01/templates/bill_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app01/views/bill.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/views/bill.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
@@ -62,15 +51,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Github/Django_Sty/media/city",
+    "last_opened_file_path": "E:/Github/Django_Sty/app01/static/js",
     "list.type.of.created.stylesheet": "CSS",
     "settings.editor.selected.configurable": "editor.preferences.completion"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Github\Django_Sty\media\city" />
       <recent name="E:\Github\Django_Sty\app01\static\js" />
+      <recent name="E:\Github\Django_Sty\media\city" />
     </key>
   </component>
   <component name="RunManager">
@@ -107,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725960055441</updated>
-      <workItem from="1725960093583" duration="17642000" />
+      <workItem from="1725960093583" duration="23953000" />
     </task>
     <task id="LOCAL-00001" summary="sync code">
       <created>1725962624348</created>
@@ -130,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725963162971</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="bill fix">
+      <created>1726033340490</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726033340490</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +146,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sync code" />
     <MESSAGE value="bill commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="bill commit" />
+    <MESSAGE value="bill fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="bill fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -159,12 +156,6 @@
           <url>file://$PROJECT_DIR$/app01/views/chart.py</url>
           <line>38</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/app01/static/js/show-progress.js</url>
-          <line>32</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

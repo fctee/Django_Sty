@@ -1,9 +1,20 @@
+// 声明全局变量来存储图表实例
+var pieChart;
+var barChart;
+
+window.addEventListener('mousewheel', function() {}, { passive: true });
+
 /**
  * 初始化饼状图
  */
 function initPie() {
 // 基于准备好的dom，初始化echarts实例
-    var myChart = echarts.init(document.getElementById('m2'));
+    pieChart = echarts.init(document.getElementById('m2'), null, {
+        renderer: 'canvas',
+        useDirtyRect: true,
+        useCoarsePointer: true
+    });
+
     var option = {
         title: {
             text: '费用占比',
@@ -40,7 +51,7 @@ function initPie() {
         success: function (res) {
             if (res.status === 200) {
                 option.series[0].data = res.data;
-                myChart.setOption(option);
+                pieChart.setOption(option);
             } else {
                 console.error('Unexpected status code:', res.status)
             }
@@ -56,7 +67,11 @@ function initPie() {
  */
 function initBar() {
     // 基于准备好的dom，初始化echarts实例
-    var myChart = echarts.init(document.getElementById('m1'));
+    barChart = echarts.init(document.getElementById('m1'), null, {
+        renderer: 'canvas',
+        useDirtyRect: true,
+        useCoarsePointer: true
+    });
 
     // 指定图表的配置项和数据
     var option = {
@@ -118,7 +133,7 @@ function initBar() {
                 option.dataset[0].source = res.data;
 
                 // 使用刚指定的配置项和数据显示图表。
-                myChart.setOption(option);
+                barChart.setOption(option);
             } else {
                 console.error('Unexpected status code:', res.status)
             }
@@ -127,4 +142,22 @@ function initBar() {
             console.error('Error fetching data:', res);
         }
     });
+}
+
+/**
+ * 调整图表大小以适应窗口变化
+ */
+function resizeCharts() {
+    if (pieChart) pieChart.resize();
+    if (barChart) barChart.resize();
+}
+
+/**
+ * 初始化所有图表
+ */
+function initCharts() {
+    initPie();
+    initBar();
+    // 添加窗口大小变化的事件监听器
+    window.addEventListener('resize', resizeCharts, {passive: true});
 }

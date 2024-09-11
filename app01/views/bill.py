@@ -50,9 +50,9 @@ def bill_upload(request):
                                                currency=currency, supplier=supplier, confirmed_by=confirmed_by)
 
             # return redirect('/bill/list/')
-            return JsonResponse({'message': '文件上传成功'}, status=200)
+            return JsonResponse({'message': '账单文件上传成功'}, status=200)
         except Exception as e:
-            return JsonResponse({'error': f'文件上传失败: {str(e)}'}, status=500)
+            return JsonResponse({'error': f'账单文件上传失败: {str(e)}'}, status=500)
 
     return JsonResponse({'error': '无效的请求'}, status=400)
 
