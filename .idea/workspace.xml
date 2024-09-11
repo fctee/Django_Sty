@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e08e5f5-093d-4a4b-beb8-139975cc7a53" name="变更" comment="bill fix">
-      <change afterPath="$PROJECT_DIR$/app01/static/js/charts-bak.js" afterDir="false" />
+    <list default="true" id="8e08e5f5-093d-4a4b-beb8-139975cc7a53" name="变更" comment="new bill sync">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/static/css/picshow.css" beforeDir="false" afterPath="$PROJECT_DIR$/app01/static/css/pic-show.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/static/js/charts.js" beforeDir="false" afterPath="$PROJECT_DIR$/app01/static/js/charts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/static/js/show-progress.js" beforeDir="false" afterPath="$PROJECT_DIR$/app01/static/js/show-progress.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/templates/bill_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/app01/templates/bill_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/views/bill.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/views/bill.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app01/static/js/pic-carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/app01/static/js/pic-carousel.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725960055441</updated>
-      <workItem from="1725960093583" duration="23953000" />
+      <workItem from="1725960093583" duration="25729000" />
     </task>
     <task id="LOCAL-00001" summary="sync code">
       <created>1725962624348</created>
@@ -126,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726033340490</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new bill sync">
+      <created>1726039950510</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726039950511</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +148,8 @@
     <MESSAGE value="sync code" />
     <MESSAGE value="bill commit" />
     <MESSAGE value="bill fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="bill fix" />
+    <MESSAGE value="new bill sync" />
+    <option name="LAST_COMMIT_MESSAGE" value="new bill sync" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
