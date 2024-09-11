@@ -18,7 +18,7 @@ from django.urls import path, re_path
 from django.views.static import serve
 from django.conf import settings
 
-from app01.views import depart, user, pretty, admin, account, task, order, chart, upload, city
+from app01.views import depart, user, pretty, admin, account, task, order, chart, upload, city, bill
 
 urlpatterns = [
     # path('admin/', admin.site.urls),
@@ -87,5 +87,10 @@ urlpatterns = [
     path('city/add/', city.city_add),
 
     # 账单管理
-    # path('bill/list/', bill.bill_list),
+    path('bill/list/', bill.bill_list),
+    path('bill/upload/', bill.bill_upload),
+    path('bill/pie/', bill.bill_pie),
+    path('bill/bar/', bill.bill_bar),
+    path('bill/<int:nid>/edit/', bill.bill_edit),
+    path('bill/delete/', bill.bill_delete),
 ]

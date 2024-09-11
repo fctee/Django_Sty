@@ -64,3 +64,9 @@ class PrettyEditModelForm(BootStrapModelForm):
 
         # 验证通过，用户输入的值返回
         return txt_mobile
+
+
+class BillModelForm(BootStrapModelForm):
+    class Meta:
+        model = models.Bill
+        fields = "__all__"
