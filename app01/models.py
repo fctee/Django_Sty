@@ -128,7 +128,7 @@ class Bill(models.Model):
     ]
 
     project_name = models.CharField(max_length=200, verbose_name="项目名称")
-    #department = models.ForeignKey(Department, on_delete=models.SET_NULL, null=True, verbose_name="部门")
+    # department = models.ForeignKey(Department, on_delete=models.SET_NULL, null=True, verbose_name="部门")
     department = models.CharField(max_length=64, null=True, verbose_name="部门")
     amount = models.DecimalField(max_digits=10, decimal_places=2, verbose_name="费用")
     currency = models.CharField(max_length=3, choices=CURRENCY_CHOICES, default='RMB', verbose_name="币种")

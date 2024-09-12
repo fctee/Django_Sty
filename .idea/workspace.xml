@@ -3,14 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="8e08e5f5-093d-4a4b-beb8-139975cc7a53" name="变更" comment="new bill sync">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/static/js/pic-carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/app01/static/js/pic-carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" show_ignored="true" />
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
@@ -30,6 +29,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2lsDnFmJDRvCCN29DWDGAVOMzX1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,7 +49,12 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "E:/Github/Django_Sty/app01/static/js",
     "list.type.of.created.stylesheet": "CSS",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -90,7 +97,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725960055441</updated>
-      <workItem from="1725960093583" duration="25729000" />
+      <workItem from="1725960093583" duration="29151000" />
+      <workItem from="1726106703202" duration="371000" />
+      <workItem from="1726107101486" duration="889000" />
     </task>
     <task id="LOCAL-00001" summary="sync code">
       <created>1725962624348</created>
@@ -127,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726039950511</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="new bill sync">
+      <created>1726047513225</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726047513225</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
